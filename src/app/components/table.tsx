@@ -1,4 +1,4 @@
-// MyComponent.tsx
+// MyTableComponent.tsx
 
 "use client";
 
