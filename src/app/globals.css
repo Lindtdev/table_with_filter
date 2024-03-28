@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ .dissolveInBottomVisible{
+    animation: dissolveInBottom 0.7s ease-in-out;
+}
+
+@keyframes dissolveInBottom{
+	0%{opacity: 0; transform:translate3d(0,100px,0)}
+	100%{opacity: 1; transform:translate3d(0,0,0)}
+}
+
+.dissolveInTopVisible{
+    animation: dissolveInTop 0.7s ease-in-out;
+}
+@keyframes dissolveInTop{
+	0%{opacity: 0; transform:translate3d(0,-100px,0)}
+	100%{opacity: 1; transform:translate3d(0,0,0)}
+}
